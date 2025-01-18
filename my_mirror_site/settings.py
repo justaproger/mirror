@@ -149,4 +149,4 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['mirror-production-c9d7.up.railway.app']
