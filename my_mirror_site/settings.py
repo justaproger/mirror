@@ -149,4 +149,4 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 
-ALLOWED_HOSTS = ['localhost', 'mirror-production-c9d7.up.railway.app']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1','mirror-production-c9d7.up.railway.app', '[::1]']
