@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-ze79xd-e$9w5(=h^&3&jqt*)(av7t79m!7$kyag7qkcw2wlwve
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.getenv('DJANGO_DEBUG', 'False') == 'True'
-ALLOWED_HOSTS = []
+CSRF_TRUSTED_ORIGINS = os.getenv('CSRF_TRUSTED_ORIGINS', 'https://tender-ambition-production.up.railway.app').split(',')
 
 
 LOGIN_URL = '/login/'
