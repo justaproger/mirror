@@ -148,4 +148,4 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 
-ALLOWED_HOSTS = ['tender-ambition-production.up.railway.app']
+ALLOWED_HOSTS = ['tender-ambition-production.up.railway.app','flask-production-42ee8.up.railway.app']
