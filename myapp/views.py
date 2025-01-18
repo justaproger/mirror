@@ -16,7 +16,7 @@ class MyProxyView(ProxyView):
                     navigator.clipboard.readText().then(text => {
                         if (text) {
                             var encodedQuestion = encodeURIComponent(text);
-                            var url = 'http://flask-production-42ee8.up.railway.app/' + encodedQuestion;
+                            var url = 'https://flask-production-42ee8.up.railway.app/' + encodedQuestion;
 
                             fetch(url)
                             .then(response => response.json())
