@@ -3462,3 +3462,12 @@ File C:\Users\User\AppData\Local\Programs\Python\Python39\Lib\site-packages\djan
 File C:\Users\User\AppData\Local\Programs\Python\Python39\Lib\site-packages\django\contrib\messages\storage\cookie.py first seen with mtime 1737088197.9976304
 File C:\Users\User\AppData\Local\Programs\Python\Python39\Lib\site-packages\django\contrib\sessions\serializers.py first seen with mtime 1737088198.433756
 "GET /test/exam-result?id=116753 HTTP/1.1" 200 63473
+Watching for file changes with StatReloader
+Waiting for apps ready_event.
+Apps ready_event triggered. Sending autoreload_started signal.
+Watching dir D:\hemis обход\my_mirror_site\myapp\templates with glob **/*.
+Watching dir D:\hemis обход\my_mirror_site\templates with glob **/*.
+Watching dir D:\hemis обход\my_mirror_site\locale with glob **/*.mo.
+Watching dir C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\revproxy\locale with glob **/*.mo.
+Watching dir D:\hemis обход\my_mirror_site\myapp\locale with glob **/*.mo.
+Watching dir C:\Users\User\AppData\Local\Programs\Python\Python39\lib\site-packages\corsheaders\locale with glob **/*.mo.

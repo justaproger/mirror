@@ -5,4 +5,4 @@ nixpkgs = ["python3", "pip"]
 cmds = ["pip install -r requirements.txt"]
 
 [phases.start]
-cmd = "gunicorn my_mirror_site.wsgi --bind 0.0.0.0:$PORT"
+cmd = "gunicorn my_mirror_site.wsgi --bind 127.0.0.1:$PORT"
