@@ -1,0 +1,1 @@
+web: gunicorn my_mirror_site.wsgi --log-file -
