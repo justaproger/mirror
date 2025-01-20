@@ -13,21 +13,23 @@ import os
 from pathlib import Path
 
 import corsheaders
-
+from django.conf.global_settings import SECRET_KEY
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
-BASE_DIR = Path(__file__).resolve().parent.parent
+BASE_DIR = Path(__file__).resolve().parent.parent.parent
 
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
+
+
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-ze79xd-e$9w5(=h^&3&jqt*)(av7t79m!7$kyag7qkcw2wlwve'
+SECRET_KEY = os.environ.get('SECRET_KEY')
+
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = os.getenv('DJANGO_DEBUG', 'False') == 'True'
-CSRF_TRUSTED_ORIGINS = os.getenv('CSRF_TRUSTED_ORIGINS', 'https://tender-ambition-production.up.railway.app').split(',')
+DEBUG = True
 
 
 LOGIN_URL = '/login/'
@@ -148,4 +150,3 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 
-ALLOWED_HOSTS = ['tender-ambition-production.up.railway.app','flask-production-42ee8.up.railway.app']
